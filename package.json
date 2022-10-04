@@ -1,0 +1,24 @@
+{
+  "name": "bank-manager-e2e",
+  "version": "dev",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:open": "cypress open",
+    "test": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "@types/resolve": "^1.20.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "cypress": "^10.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
